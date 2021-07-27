@@ -1,10 +1,12 @@
 /* v3 navbar */
 .navbar-brand {
-  color: #007bff !important;
+  color: #2d4637 !important;
+  font-size: 25px !important;
+  font-weight: 700;
 }
 
 .navbar .nav-link:hover {
-  color: #007bff !important;
+  color: #3f5548 !important;
 }
 .navbar-text {
   font-size: 16px !important;

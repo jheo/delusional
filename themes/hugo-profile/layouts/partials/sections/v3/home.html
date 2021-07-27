@@ -52,21 +52,23 @@
           <span class="px-1"></span>
           {{ end }}
 
-          {{ if .Site.Params.instagram }}
-          <a href="{{ .Site.Params.instagram }}" class="social-icon">
-            <i class="fab fa-lg fa-instagram"></i>
-          </a>
-          <span class="px-1"></span>
-          {{ end }}
-
           {{ if .Site.Params.facebook }}
           <a href="{{ .Site.Params.facebook }}" class="social-icon">
             <i class="fab fa-lg fa-facebook"></i>
           </a>
+          <span class="px-1"></span>
           {{ end }}
+
+          {{ if .Site.Params.instagram }}
+          <a href="{{ .Site.Params.instagram }}" class="social-icon">
+            <i class="fab fa-lg fa-instagram"></i>
+          </a>
+          {{ end }}
+
+
         </div>
         <div class="pt-4 btn-intro">
-          <a href="mailto:{{ .Site.Params.email }}?subject=About your portfolio" class="btn-know btn btn-outline-info about-button" data-aos="zoom-in" data-aos-offset="50"
+          <a href="mailto:{{ .Site.Params.email }}?subject=안녕하세요" class="btn-know btn btn-outline-info about-button" data-aos="zoom-in" data-aos-offset="50"
             data-aos-delay="50" data-aos-duration="900" data-aos-once="true">
             Get in touch
           </a>

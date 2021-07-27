@@ -1,6 +1,6 @@
 baseURL: "https://jheo.io"
 languageCode: "ko-kr"
-title: "June Heo"
+title: "jheo.io"
 theme: "hugo-profile"
 
 Paginate: 10
@@ -16,19 +16,15 @@ taxonomies:
 enableEmoji: true
 params:
   version: 3
-
   favicon: "/images/fav.png"
   description: "A high performance hugo theme for personal portfolio and blog."
 
-  # Navbar Menus
-  customMenus:
-    - name: "Blog"
-      Url: "/blog"
 
   # home
   disable_home: false
   name: "June Heo"
   profession: "Software Engineer"
+  # profile_image: "/images/profile_color.png"
   youtube: "https://www.youtube.com/channel/UC6HKGT_6IsRap4cb586WSJg"
   linkedin: "https://www.linkedin.com/in/june-heo"
   blog: "https://papercut.blog"
@@ -37,25 +33,41 @@ params:
 
   # About
   disable_about: false
-  descripe_l1_person: "12년차 개발자로 프레임워크, 백엔드, 모바일, 클라우드, 프론트엔드 등 다양한 개발 경험이 있습니다. SW엔지니어링팀, Global 개발센터, 솔루션 개발팀, 아키텍처팀, 플랫폼개발팀을 거쳐서 현재 신사업 인큐베이션팀에서 실시간 협업 서비스를 개발하고 있습니다"
-  descripe_l2_person: "또한 신입사원 교육, 중소기업 재직자 대상 교육, 프레임워크 전문가 교육, 백엔드 및 MSA 개발 교육 등 다수의 사내 교육과정의 개발에 직접 참여하였으며 사내 강사 및 강연자로 다년간 활동하면서 기술 공유 활동 및 개발자 양성에 관심을 가지고 있습니다"
-  descripe_l3_person: "그동안 개발자들을 위한 공통 라이브러리, 모듈, API를 개발하고 교육하는 업무를 자주 담당했기 때문에, 가급적 많은 기술 분야에 대해 지식을 쌓아서 다양한 분야의 개발자들이 편하고 빠르게 개발할 수 있도록 도와주는 일에 많은 관심을 가지고 있습니다"
+  descripe_l1_person: "애플리케이션, 모바일, 플랫폼, 클라우드 등 다양한 분야에서 개발자 및 아키텍트 업무를 경험하였습니다. 또한 다년간 신입사원 및 사내 개발자들을 대상으로 업무, 프로그래밍, 알고리즘, 프레임워크, 아키텍처 등에 대한 교육 및 세미나를 다수 진행하였습니다."
+  descripe_l2_person: "개발자들을 위한 개발에 관심을 많이 가지고 있으며, 개발자들이 편하게 개발할 수 있게 만들어주는 API, 서비스, 라이브러리, 문서, 유틸리티 등을 만들고 공유하는 것을 좋아합니다."
+  depts:
+    - name: 신사업 인큐베이션팀
+      role: 소프트웨어 아키텍트
+      start: 2020
+      end: 현재
+    - name: 플랫폼개발팀
+      role: 소프트웨어 아키텍트
+      start: 2019
+      end: 2020
+    - name: 아키텍처팀
+      role: 소프트웨어 아키텍트
+      start: 2018
+      end: 2019
+    - name: 솔루션개발팀
+      role: 애플리케이션 개발
+      start: 2014
+      end: 2017
+    - name: 소프트웨어 엔지니어링팀
+      role: 애플리케이션 개발
+      start: 2010
+      end: 2014
+
   skills:
     - name: Java
-    - name: Spring Framework
-    - name: Docker/Kubernetes
+    - name: Spring
+    - name: Kubernetes
     - name: Redis
-    - name: Amazon Web Service
+    - name: AWS
     - name: JavaScript
     - name: ReactJS
-  skills2:
-    - name: Developer Education
-    - name: Distributed Computing
     - name: Cloud Native
     - name: DevOps
     - name: GraphQL
-    - name: VueJS
-    - name: User Experience
 
   # Experience
   disable_experience: false
@@ -88,7 +100,9 @@ params:
         - point: 사용기술 - Go, gRPC, VueJS, JavaScript, Kubernetes
         - point: 사내 전략인재 파견 프로그램을 통한 해외 프로젝트 개발 참여 (<a href="http://samsung-cnct.github.io/" target="_blank">Cloud Native Computing Team / Seattle</a>)
         - point: 베어 메탈 및 퍼블릭 클라우드 지향 K8S 클러스터 설치 및 관리 시스템 개발 프로젝트 참여
-        - point: 멀티 리전 디플로이 기능 백엔드 및 프론트엔드 개발 수행
+        - point: <a href="/blog/implement-multi-region-with-strange-language/" target="_blank">멀티 리전 디플로이 기능 백엔드 및 프론트엔드 개발</a> 수행
+        - point: <a href="/blog/work-as-a-team" target="_blank">해외 개발 문화 체험 후기</a>
+        - point: <a href="/blog/from-ruby-to-k8s" target="_blank">KubeCon + CloudNativeCon 2019 컨퍼런스 참석 후기</a>
     - company: "API Catalog 시스템 개발"
       companyId: "catalog"
       role: "Software Architect"
@@ -108,6 +122,7 @@ params:
         - point: 사용기술 - Spring Boot, Netflix Stack, MSA, Docker, Kubernetes
         - point: 스프링 부트, MSA, VueJS 및 K8S, Cloud 기반 개발자 교육과정 교재 및 실습 교안 작성
         - point: 스프링 기반 백엔드 및 MSA 강의 사내 강사 역할 수행
+        - point: <a href="/blog/cloud-native-programming-101" target="_blank">클라우드 네이티브 프로그래밍 세미나 강연</a>
     - company: "클라우드 서비스 전환 및 공통 서비스 개발"
       companyId: "arch"
       role: "Software Architect"
@@ -127,6 +142,7 @@ params:
         - point: <a href="https://www.wellysis.com/" target="_blank">웨어러블 장비를 이용한 심전도 데이터 측정 및 분석 서비스</a> 개발
         - point: 심전도 및 위치 정보 데이터 수집 서버, 분석 작업 스케줄러, 안드로이드 및 타이젠 클라이언트 개발
         - point: AWS 인프라 구성 및 운영 업무 담당
+        - point: <a href="/blog/scale-out-with-redis" target="_blank">수평 확장 가능한 머신러닝 분석 시스템 개발 후기</a>
     - company: EHR Mobile
       companyId: "ehr"
       role: "Mobile Developer"
@@ -138,6 +154,7 @@ params:
         - point: 부서 내 모바일 개발자 교육, 양성, 선도개발 업무 수행
         - point: 공통 라이브러리(파일관리, 네트워크, 암호화 통신, 내비게이션) 및 공통 UI컴포넌트 개발 업무 담당
         - point: <a href="https://youtu.be/gvPuQSfpj14" target="_blank">모바일 개발 프로젝트 준비과정 발표 슬라이드</a>
+        - point: <a href="/blog/enterprise-android-dev" target="_blank">프로젝트 공통 모듈 개발 후기</a>
     - company: "CIC 3.0 Apps & Solution"
       companyId: "cic"
       role: "Android Developer"
@@ -148,7 +165,6 @@ params:
         - point: 신입/경력 사원 교육용 안드로이드 태블릿 기반 강의 노트 필기 프로그램 개발
         - point: 필기 프로그램 드로잉 엔진 및 주요 그래픽 처리 모듈 개발
         - point: 서버 저장 및 양방향 동기화 모듈 개발
-        - point: <a href="https://papercut.blog/190" target="_blank">프로젝트 에세이</a>
     - company: "비즈니스 프로세스 모델러"
       companyId: "bizmodeler"
       role: "Java Developer"
@@ -219,50 +235,46 @@ params:
   # Projects
   disable_projects: false
   projects:
-    - name: "전역변수 Apocalypse"
-      img: /images/project.jpg
-      featuredlink: "/blog/develop-basic-crud-app/"
-      description: 힝
     - name: "루비에서 쿠버네티스 까지"
-      img: /images/project.jpg
-      featuredlink: "/blog/develop-basic-crud-app/"
-      description: 힝
+      img: /images/portfolio/kubecon.png
+      featuredlink: "/blog/from-ruby-to-k8s/"
+      description: 2019년 가을 샌디에고, 인구수 140만의 작은 도시에 2만명의 개발자가 일주일 동안 쿠버네티스와 클라우드에 대해 이야기하기 위해 몰려옵니다. 가상화 시장에서 완전히 주류로 자리잡은 쿠버네티스의 자축 세러머니와도 같았던 2019년 북미 KubeCon + CloudNativeCon. 그 많은 개발자들에게 다양한 분야의 엔지니어들이 전달하려고 했던 메시지는 무엇이었을까요?
     - name: "처음 보는 언어로 멀티 리전 서포트 기능 구현하기"
-      img: /images/project.jpg
-      featuredlink: "/blog/develop-basic-crud-app/"
-      description: 힝
+      img: /images/portfolio/multiregion.png
+      featuredlink: "/blog/implement-multi-region-with-strange-language/"
+      description: 낯선 환경에 적응하려고 애쓰고 있을 때, 팀에서 온보딩(On-Boarding) 과정으로 저에게 주었던 미션은 단일 리전만 지원했던 서비스를 멀티 리전을 지원하도록 개선하라는 임무였습니다. gRPC, Go, Buffalo, VueJS와 같이 단 한 번도 써본 적이 없는 개발환경이 가득한 이곳에서 어떻게 접근해야 프론트엔드, 프로토콜, 백엔드를 아우르는 어려운 과제를 완수할 수 있을까요?
     - name: "레디스를 활용한 스케일 아웃 레시피"
-      img: /images/project.jpg
-      featuredlink: "/blog/develop-basic-crud-app/"
-      description: 힝
-    - name: "클라우드 네이티브 프로그래밍은 무엇인가?"
-      img: /images/project.jpg
-      featuredlink: "/blog/develop-basic-crud-app/"
-      description: 힝
+      img: /images/portfolio/scaleout.png
+      featuredlink: "/blog/scale-out-with-redis/"
+      description: 마이크로 서비스 아키텍처가 화두로 떠오르던 무렵, 단순하던 기존 시스템을 마이크로 서비스로 전환하면서 수평 확장이 가능하고 클라우드에 적합한 아키텍처로 재구성하라는 임무를 받게 되었습니다. 하지만 딥러닝을 위한 GPU 인스턴스에 엄청난 비용을 소모한 우리가 추가적으로 만들 수 있었던 VM은 최대 3개. 이런 어려운 상황에서 어떻게 레디스 하나만 사용하여 수평 확장 가능한 분석 스케줄러를 만들 수 있었는지에 대한 정리글 입니다.
+    - name: "클라우드 네이티브 프로그래밍 101"
+      img: /images/portfolio/cloud.png
+      featuredlink: "/blog/cloud-native-programming-101/"
+      description: 2018년 사내 기술 세미나에서 클라우드 네이티브 프로그래밍을 처음 접하는 개발자들을 대상으로 발표한 내용입니다. 확장성, 효율성, 플랫폼 등의 측면에서 클라우드 네이티브 프로그래밍의 일부 개념들을 소개하고 어떤 방향으로 개발하는 것이 좋은지에 대해서 정리하였습니다.
     - name: "팀으로 일하는 것과 팀을 위해 일하는 것"
-      img: /images/project.jpg
-      featuredlink: "/blog/develop-basic-crud-app/"
-      description: 힝
-    - name: "엔터프라이즈 안드로이드 애플리케이션 공통 모듈 개발 후기"
-      img: /images/project.jpg
-      featuredlink: "/blog/develop-basic-crud-app/"
-      description: 힝
+      img: /images/portfolio/seattle.png
+      featuredlink: "/blog/work-as-a-team/"
+      description: 시애틀 파견 근무 기간동안 가장 놀란 것은 한국의 개발 환경과 미국의 개발 환경이 본질적으로 거의 같았다는 것입니다. 하지만 개발팀의 개발자들이 일하는 방식은 분명히 달랐습니다. 무엇이 한국 개발자들과 미국 개발자들에게 '다른 생각'을 가지게 만들었을까요?
+    - name: "엔터프라이즈 안드로이드 애플리케이션 개발하기"
+      img: /images/portfolio/android.png
+      featuredlink: "/blog/enterprise-android-dev/"
+      description: 안드로이드 태블릿을 이용하여 의사, 간호사, 스탭들이 모든 업무를 볼 수 있는 복잡한 병원 정보 시스템 앱을 만드는데 주어진 시간은 6개월. 대부분의 개발자는 안드로이드와 자바 개발이 처음인 상황. 공통 모듈과 라이브러리를 어떻게 만들어야 개발자들이 성공적으로 엔터프라이즈 안드로이드 앱을 만들 수 있도록 도와줄 수 있었을지에 대한 고민과 그 결과입니다.
     - name: "아주 간단한 CRUD 애플리케이션 만들기"
-      img: /images/project.jpg
+      img: /images/portfolio/crud.png
       featuredlink: "/blog/develop-basic-crud-app/"
-      description: 힝
+      description: API 인증키를 관리하기 위해 사용하던 KMS가 너무 복잡하고 어려우니, 아주 단순하게 CRUD 하나만 되는 서비스를 새로 만들라는 업무 지시를 받았습니다. 하지만 이 간단한 CRUD 애플리케이션을 만드는데 무려 1주일이라는 시간이 걸렸는데요, CRUD 하나를 만드는데 1주일을 걸리게 만들었던 걸림돌이 무엇이었는지 정리하였습니다.
     - name: "신입개발자 성장가이드 Part 1"
       youtubeLink: "https://www.youtube.com/embed/5AIYUamN1wY"
-      description: "Description of project"
+      description: 2021년 상반기 신입 개발자 멘토링 세션
     - name: "신입개발자 성장가이드 Part 2"
       youtubeLink: "https://www.youtube.com/embed/uicauWZeqMA"
-      description: "Description of project"
+      description: 2021년 하반기 신입 개발자 멘토링 세션
     - name: "Backend 개발의 현황"
       youtubeLink: "https://www.youtube.com/embed/3gED2lpQTxc"
-      description: "Description of project"
+      description: 2020년 해외 신입 개발자 입문 교육
     - name: "GraphQL을 배워보자"
       youtubeLink: "https://www.youtube.com/embed/ZL4cv9ObuLM"
-      description: "Description of project"
+      description: GraphQL의 소개 및 기초 개념
 
   # Achievements
   disable_achievements: false

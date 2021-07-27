@@ -73,7 +73,8 @@ article > tbody > tr:hover {
 }
 
 article img {
-  width: 100%;
+  max-width: 100%;
+  height: auto;
 }
 
 article caption,

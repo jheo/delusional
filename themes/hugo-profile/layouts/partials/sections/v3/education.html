@@ -16,6 +16,11 @@
               학위논문 : {{ .thesis | safeHTML }}
             </div>
             {{ end }}
+            {{ if .gpa}}
+            <div style="font-size: 15px;">
+              GPA : {{ .gpa }}
+            </div>
+            {{ end }}
             <div class="">
               <small>{{ .startedyear }}</small>
               -
@@ -43,7 +48,6 @@
         </ul>
       </div>
       <div class="col-md-5 overflow-hidden py-3 d-none d-md-block">
-        
 
       </div>
     </div>
