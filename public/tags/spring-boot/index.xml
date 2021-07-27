@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Spring Boot on jheo.io</title>
+    <link>https://jheo.io/tags/spring-boot/</link>
+    <description>Recent content in Spring Boot on jheo.io</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko-kr</language>
+    <lastBuildDate>Tue, 27 Jul 2021 00:04:36 +0900</lastBuildDate><atom:link href="https://jheo.io/tags/spring-boot/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>아주 간단한 CRUD 애플리케이션 만들기</title>
+      <link>https://jheo.io/blog/develop-basic-crud-app/</link>
+      <pubDate>Tue, 27 Jul 2021 00:04:36 +0900</pubDate>
+      
+      <guid>https://jheo.io/blog/develop-basic-crud-app/</guid>
+      <description>서론 지난 여름, 저는 부서로부터 기묘한 업무지시를 받았습니다. 간단한 CRUD 서버를 하나 만들라는 것입니다. 익히 아시는 것 처럼 CRUD는 Create, Read, Update, Delete의 약자로 뭔가를 저장하고 읽고 수정하고 지우는 작업을 의미합니다. 저희가 일을 하면서 만드는 정보시스템의 가장 기본이 되는 동작이기 때문에 보통 CRUD = 가장 기초적이고 쉬운 동작 이라는 의미로 쓰일 때가 많습니다. &amp;ldquo;일단 인턴들 CRUD 하나씩 개발해보게 하시죠&amp;rdquo; &amp;ldquo;그 기능이요? 기껏해야 CRUD 정도 난이도 입니다.&amp;rdquo; &amp;ldquo;일단 CRUD 하나 짜보면서 견적을 내보시죠&amp;rdquo; 이런 식으로요.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -2,22 +2,18 @@ baseURL = "https://jheo.io"
 languageCode = "ko-kr"
 title = "jheo.io"
 theme = "hugo-profile"
-Paginate = 10.0
+Paginate = 10
 enableEmoji = true
 
-[markup]
-
-  [markup.goldmark]
-
-    [markup.goldmark.renderer]
-    unsafe = true
+[markup.goldmark.renderer]
+unsafe = true
 
 [taxonomies]
 tag = "tags"
 category = "categories"
 
 [params]
-version = 3.0
+version = 3
 favicon = "/images/fav.png"
 description = "A high performance hugo theme for personal portfolio and blog."
 disable_home = false
@@ -46,32 +42,32 @@ tweet = false
   [[params.depts]]
   name = "신사업 인큐베이션팀"
   role = "소프트웨어 아키텍트"
-  start = 2020.0
+  start = 2_020
   end = "현재"
 
   [[params.depts]]
   name = "플랫폼개발팀"
   role = "소프트웨어 아키텍트"
-  start = 2019.0
-  end = 2020.0
+  start = 2_019
+  end = 2_020
 
   [[params.depts]]
   name = "아키텍처팀"
   role = "소프트웨어 아키텍트"
-  start = 2018.0
-  end = 2019.0
+  start = 2_018
+  end = 2_019
 
   [[params.depts]]
   name = "솔루션개발팀"
   role = "애플리케이션 개발"
-  start = 2014.0
-  end = 2017.0
+  start = 2_014
+  end = 2_017
 
   [[params.depts]]
   name = "소프트웨어 엔지니어링팀"
   role = "애플리케이션 개발"
-  start = 2010.0
-  end = 2014.0
+  start = 2_010
+  end = 2_014
 
   [[params.skills]]
   name = "Java"
@@ -107,14 +103,14 @@ tweet = false
   company = "Marimba"
   companyId = "marimba"
   role = "Software Architect"
-  startdate = 2020.09
+  startdate = 2_020.09
   enddate = "현재"
 
     [[params.experience.featuredpoints]]
     point = "사용기술 - ReactJS, JavaScript, NodeJS, Express, Redis, AWS, Kubernetes"
 
     [[params.experience.featuredpoints]]
-    point = "<a href=\"https://marimba.team\" target=\"_blank\">실시간 협업을 위한 온라인 화이트보드 서비스</a> 개발"
+    point = '<a href="https://marimba.team" target="_blank">실시간 협업을 위한 온라인 화이트보드 서비스</a> 개발'
 
     [[params.experience.featuredpoints]]
     point = "텍스트 에디터, 스마트 가이드, 투표 및 기타 편의 기능 프론트 엔드 및 백엔드 개발"
@@ -123,8 +119,8 @@ tweet = false
   company = "DevOps 플랫폼 포탈 개발"
   companyId = "portal"
   role = "Java Developer"
-  startdate = 2020.01
-  enddate = 2020.08
+  startdate = 2_020.01
+  enddate = 2_020.08
 
     [[params.experience.featuredpoints]]
     point = "사용기술 - Spring Boot, WebFlux, Java, JPA, VueJS, JavaScript, Redis"
@@ -142,33 +138,33 @@ tweet = false
   company = "Infrastructure Management System 개발"
   companyId = "ims"
   role = "Go Developer"
-  startdate = 2019.09
-  enddate = 2019.12
+  startdate = 2_019.09
+  enddate = 2_019.12
 
     [[params.experience.featuredpoints]]
     point = "사용기술 - Go, gRPC, VueJS, JavaScript, Kubernetes"
 
     [[params.experience.featuredpoints]]
-    point = "사내 전략인재 파견 프로그램을 통한 해외 프로젝트 개발 참여 (<a href=\"http://samsung-cnct.github.io/\" target=\"_blank\">Cloud Native Computing Team / Seattle</a>)"
+    point = '사내 전략인재 파견 프로그램을 통한 해외 프로젝트 개발 참여 (<a href="http://samsung-cnct.github.io/" target="_blank">Cloud Native Computing Team / Seattle</a>)'
 
     [[params.experience.featuredpoints]]
     point = "베어 메탈 및 퍼블릭 클라우드 지향 K8S 클러스터 설치 및 관리 시스템 개발 프로젝트 참여"
 
     [[params.experience.featuredpoints]]
-    point = "<a href=\"/blog/implement-multi-region-with-strange-language/\" target=\"_blank\">멀티 리전 디플로이 기능 백엔드 및 프론트엔드 개발</a> 수행"
+    point = '<a href="/blog/implement-multi-region-with-strange-language/" target="_blank">멀티 리전 디플로이 기능 백엔드 및 프론트엔드 개발</a> 수행'
 
     [[params.experience.featuredpoints]]
-    point = "<a href=\"/blog/work-as-a-team\" target=\"_blank\">해외 개발 문화 체험 후기</a>"
+    point = '<a href="/blog/work-as-a-team" target="_blank">해외 개발 문화 체험 후기</a>'
 
     [[params.experience.featuredpoints]]
-    point = "<a href=\"/blog/from-ruby-to-k8s\" target=\"_blank\">KubeCon + CloudNativeCon 2019 컨퍼런스 참석 후기</a>"
+    point = '<a href="/blog/from-ruby-to-k8s" target="_blank">KubeCon + CloudNativeCon 2019 컨퍼런스 참석 후기</a>'
 
   [[params.experience]]
   company = "API Catalog 시스템 개발"
   companyId = "catalog"
   role = "Software Architect"
-  startdate = 2018.12
-  enddate = 2019.08
+  startdate = 2_018.12
+  enddate = 2_019.08
 
     [[params.experience.featuredpoints]]
     point = "사용기술 - Spring Boot, Kubernetes, Redis"
@@ -180,14 +176,14 @@ tweet = false
     point = "API 인증 키 발급 및 관리 시스템 개발 및 운영"
 
     [[params.experience.featuredpoints]]
-    point = "<a href=\"/blog/develop-basic-crud-app/\" target=\"_blank\">API 인증 키 발급 시스템 개발 후기</a>"
+    point = '<a href="/blog/develop-basic-crud-app/" target="_blank">API 인증 키 발급 시스템 개발 후기</a>'
 
   [[params.experience]]
   company = "플랫폼 기반 개발자 교육 과정 개발 및 강의"
   companyId = "e2e"
   role = "Software Architect"
-  startdate = 2018.07
-  enddate = 2019.06
+  startdate = 2_018.07
+  enddate = 2_019.06
 
     [[params.experience.featuredpoints]]
     point = "사용기술 - Spring Boot, Netflix Stack, MSA, Docker, Kubernetes"
@@ -199,14 +195,14 @@ tweet = false
     point = "스프링 기반 백엔드 및 MSA 강의 사내 강사 역할 수행"
 
     [[params.experience.featuredpoints]]
-    point = "<a href=\"/blog/cloud-native-programming-101\" target=\"_blank\">클라우드 네이티브 프로그래밍 세미나 강연</a>"
+    point = '<a href="/blog/cloud-native-programming-101" target="_blank">클라우드 네이티브 프로그래밍 세미나 강연</a>'
 
   [[params.experience]]
   company = "클라우드 서비스 전환 및 공통 서비스 개발"
   companyId = "arch"
   role = "Software Architect"
-  startdate = 2018.03
-  enddate = 2018.11
+  startdate = 2_018.03
+  enddate = 2_018.11
 
     [[params.experience.featuredpoints]]
     point = "사용기술 - Docker, Kubernetes, Helm, Java, Spring Boot, Redis"
@@ -221,14 +217,14 @@ tweet = false
   company = "S-Patch"
   companyId = "spatch"
   role = "Software Architect"
-  startdate = 2016.11
-  enddate = 2018.02
+  startdate = 2_016.11
+  enddate = 2_018.02
 
     [[params.experience.featuredpoints]]
     point = "사용기술 - AWS, Spring Boot, Redis, Android, Tizen"
 
     [[params.experience.featuredpoints]]
-    point = "<a href=\"https://www.wellysis.com/\" target=\"_blank\">웨어러블 장비를 이용한 심전도 데이터 측정 및 분석 서비스</a> 개발"
+    point = '<a href="https://www.wellysis.com/" target="_blank">웨어러블 장비를 이용한 심전도 데이터 측정 및 분석 서비스</a> 개발'
 
     [[params.experience.featuredpoints]]
     point = "심전도 및 위치 정보 데이터 수집 서버, 분석 작업 스케줄러, 안드로이드 및 타이젠 클라이언트 개발"
@@ -237,14 +233,14 @@ tweet = false
     point = "AWS 인프라 구성 및 운영 업무 담당"
 
     [[params.experience.featuredpoints]]
-    point = "<a href=\"/blog/scale-out-with-redis\" target=\"_blank\">수평 확장 가능한 머신러닝 분석 시스템 개발 후기</a>"
+    point = '<a href="/blog/scale-out-with-redis" target="_blank">수평 확장 가능한 머신러닝 분석 시스템 개발 후기</a>'
 
   [[params.experience]]
   company = "EHR Mobile"
   companyId = "ehr"
   role = "Mobile Developer"
-  startdate = 2014.03
-  enddate = 2016.1
+  startdate = 2_014.03
+  enddate = 2_016.1
 
     [[params.experience.featuredpoints]]
     point = "사용기술 - Android, iOS, Java, Swift, Spring Framework, Redis"
@@ -259,17 +255,17 @@ tweet = false
     point = "공통 라이브러리(파일관리, 네트워크, 암호화 통신, 내비게이션) 및 공통 UI컴포넌트 개발 업무 담당"
 
     [[params.experience.featuredpoints]]
-    point = "<a href=\"https://youtu.be/gvPuQSfpj14\" target=\"_blank\">모바일 개발 프로젝트 준비과정 발표 슬라이드</a>"
+    point = '<a href="https://youtu.be/gvPuQSfpj14" target="_blank">모바일 개발 프로젝트 준비과정 발표 슬라이드</a>'
 
     [[params.experience.featuredpoints]]
-    point = "<a href=\"/blog/enterprise-android-dev\" target=\"_blank\">프로젝트 공통 모듈 개발 후기</a>"
+    point = '<a href="/blog/enterprise-android-dev" target="_blank">프로젝트 공통 모듈 개발 후기</a>'
 
   [[params.experience]]
   company = "CIC 3.0 Apps & Solution"
   companyId = "cic"
   role = "Android Developer"
-  startdate = 2013.09
-  enddate = 2014.02
+  startdate = 2_013.09
+  enddate = 2_014.02
 
     [[params.experience.featuredpoints]]
     point = "사용기술 - Android, Java, Spring Framework, jQuery"
@@ -287,8 +283,8 @@ tweet = false
   company = "비즈니스 프로세스 모델러"
   companyId = "bizmodeler"
   role = "Java Developer"
-  startdate = 2013.03
-  enddate = 2013.06
+  startdate = 2_013.03
+  enddate = 2_013.06
 
     [[params.experience.featuredpoints]]
     point = "사용기술 - Java, SWT, Spring Framework, Apache POI, Jasper Report"
@@ -306,8 +302,8 @@ tweet = false
   company = "ChatON Voice&Video Admin Portal"
   companyId = "chaton"
   role = "Instructor/Translator"
-  startdate = 2013.07
-  enddate = 2013.09
+  startdate = 2_013.07
+  enddate = 2_013.09
 
     [[params.experience.featuredpoints]]
     point = "사용기술 - Agile, Scrum, Java"
@@ -325,8 +321,8 @@ tweet = false
   company = "배치 프레임워크 스케줄러"
   companyId = "aebs"
   role = "Java Developer"
-  startdate = 2012.03
-  enddate = 2012.1
+  startdate = 2_012.03
+  enddate = 2_012.1
 
     [[params.experience.featuredpoints]]
     point = "사용기술 - Java, Spring Framework, GWT, Agile, Scrum"
@@ -341,14 +337,14 @@ tweet = false
     point = "원격 개발팀 리드, 프로젝트 관리 및 애자일 프로세스 관리"
 
     [[params.experience.featuredpoints]]
-    point = "<a href=\"https://youtu.be/KxvpPfez9hA\" target=\"_blank\">프로젝트 후기 및 Case Study 발표 슬라이드</a>"
+    point = '<a href="https://youtu.be/KxvpPfez9hA" target="_blank">프로젝트 후기 및 Case Study 발표 슬라이드</a>'
 
   [[params.experience]]
   company = "전자정부 표준프레임워크"
   companyId = "egovframe"
   role = "Java Developer"
-  startdate = 2010.05
-  enddate = 2011.11
+  startdate = 2_010.05
+  enddate = 2_011.11
 
     [[params.experience.featuredpoints]]
     point = "사용기술 - Java, Spring Framework, JSP, jQuery"
@@ -357,16 +353,16 @@ tweet = false
     point = "프레임워크 코어 버전 업데이트 작업 (스프링 2.5 -> 3.0 기반)"
 
     [[params.experience.featuredpoints]]
-    point = "컴포넌트 재사용률 측정 서비스, <a href=\"https://www.egovframe.go.kr/wiki/doku.php?id=egovframework:compa\" target=\"_blank\">프레임워크 적용 여부 점검 서비스</a> 개발"
+    point = '컴포넌트 재사용률 측정 서비스, <a href="https://www.egovframe.go.kr/wiki/doku.php?id=egovframework:compa" target="_blank">프레임워크 적용 여부 점검 서비스</a> 개발'
 
     [[params.experience.featuredpoints]]
-    point = "프레임워크 개발 강의 및 <a href=\"https://open.egovframe.org/oc/products/seminarItem.do?nttId=2992&pageIndex=20\" target=\"_blank\">기술 세미나</a> 강의 진행"
+    point = '프레임워크 개발 강의 및 <a href="https://open.egovframe.org/oc/products/seminarItem.do?nttId=2992&pageIndex=20" target="_blank">기술 세미나</a> 강의 진행'
 
   [[params.education]]
   degree = "석사"
   branch = "소프트웨어공학"
   university = "고려대학교 컴퓨터정보통신대학원"
-  thesis = "<a href=\"http://www.riss.kr/search/detail/DetailView.do?p_mat_type=be54d9b8bc7cdb09&control_no=a27b094bbe0ea2a5ffe0bdc3ef48d419\" target=\"_blank\">컨테이너 기반 오토스케일링 기법의 성능 분석 및 개선</a>"
+  thesis = '<a href="http://www.riss.kr/search/detail/DetailView.do?p_mat_type=be54d9b8bc7cdb09&control_no=a27b094bbe0ea2a5ffe0bdc3ef48d419" target="_blank">컨테이너 기반 오토스케일링 기법의 성능 분석 및 개선</a>'
   startedyear = "2017"
   graduation = "2019"
 
@@ -378,16 +374,16 @@ tweet = false
   graduation = "2010"
 
   [[params.certification]]
-  name = "<a href=\"https://www.cncf.io/certification/cka/\">Certified Kubernetes Administrator</a>"
+  name = '<a href="https://www.cncf.io/certification/cka/">Certified Kubernetes Administrator</a>'
   organization = "Linux Foundation"
-  certcode = "<a href=\"https://www.credly.com/badges/10ff5ce8-379b-4fca-ad9b-cf9f950aef0c\" target=\"_blank\">CKA-2000-005786-0100</a>"
+  certcode = '<a href="https://www.credly.com/badges/10ff5ce8-379b-4fca-ad9b-cf9f950aef0c" target="_blank">CKA-2000-005786-0100</a>'
   startedyear = "2020"
   endyear = "2023"
 
   [[params.certification]]
-  name = "<a href=\"https://www.cncf.io/certification/ckad/\">Certified Kubernetes Application Developer</a>"
+  name = '<a href="https://www.cncf.io/certification/ckad/">Certified Kubernetes Application Developer</a>'
   organization = "Linux Foundation"
-  certcode = "<a href=\"https://www.credly.com/badges/fbd59951-31f5-4d98-aa72-fac530162b08/linked_in_profile\" target=\"_blank\">CKAD-2000-002748-0100</a>"
+  certcode = '<a href="https://www.credly.com/badges/fbd59951-31f5-4d98-aa72-fac530162b08/linked_in_profile" target="_blank">CKAD-2000-002748-0100</a>'
   startedyear = "2020"
   endyear = "2023"
 

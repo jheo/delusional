@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cloud on jheo.io</title>
+    <link>https://jheo.io/tags/cloud/</link>
+    <description>Recent content in Cloud on jheo.io</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko-kr</language>
+    <lastBuildDate>Tue, 27 Jul 2021 00:04:36 +0900</lastBuildDate><atom:link href="https://jheo.io/tags/cloud/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>루비에서 쿠버네티스까지</title>
+      <link>https://jheo.io/blog/from-ruby-to-k8s/</link>
+      <pubDate>Tue, 27 Jul 2021 00:04:36 +0900</pubDate>
+      
+      <guid>https://jheo.io/blog/from-ruby-to-k8s/</guid>
+      <description>2005년 6월 2일, David Heinemeier Hansson이라는 이름의 덴마크 출신 개발자가 브라질에서 열린 컨퍼런스에서 하나의 발표를 하게 됩니다. 발표 주제는 자신이 직접 개발한 프레임워크를 이용해서 블로그를 만드는 시연이었습니다. 이 발표에서 DHH는 비어있는 디렉터리에서부터 시작하여 단위 테스트코드를 포함하여 글 작성, 수정, 코멘트 기능이 완비된 블로그를 만드는 시연을 15분 만에 실수 없이 매끄럽게 끝냈습니다. 이 발표는 당시에 어마어마한 화제가 되었기 때문에 당시 업계에서 이미 일하고 계셨던 분들이나 관련 공부를 하고 계셨던 분들이라면 다들 한 번쯤 &amp;lsquo;How to build a blog engine in 15 minutes with Ruby on Rails&amp;rsquo;라는 영상을 보셨을 겁니다.</description>
+    </item>
+    
+  </channel>
+</rss>

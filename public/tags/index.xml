@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on jheo.io</title>
+    <link>https://jheo.io/tags/</link>
+    <description>Recent content in Tags on jheo.io</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko-kr</language>
+    <lastBuildDate>Tue, 27 Jul 2021 00:04:36 +0900</lastBuildDate><atom:link href="https://jheo.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cloud</title>
+      <link>https://jheo.io/tags/cloud/</link>
+      <pubDate>Tue, 27 Jul 2021 00:04:36 +0900</pubDate>
+      
+      <guid>https://jheo.io/tags/cloud/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Kubernetes</title>
+      <link>https://jheo.io/tags/kubernetes/</link>
+      <pubDate>Tue, 27 Jul 2021 00:04:36 +0900</pubDate>
+      
+      <guid>https://jheo.io/tags/kubernetes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Redis</title>
+      <link>https://jheo.io/tags/redis/</link>
+      <pubDate>Tue, 27 Jul 2021 00:04:36 +0900</pubDate>
+      
+      <guid>https://jheo.io/tags/redis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Spring Boot</title>
+      <link>https://jheo.io/tags/spring-boot/</link>
+      <pubDate>Tue, 27 Jul 2021 00:04:36 +0900</pubDate>
+      
+      <guid>https://jheo.io/tags/spring-boot/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
