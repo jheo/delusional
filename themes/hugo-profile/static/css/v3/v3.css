@@ -3,7 +3,9 @@ html {
 }
 body {
   font-family: "Noto Sans KR", sans-serif;
+  overflow-x: hidden;
   background-color: #ffffff;
+  width: 100%;
 ;
 }
 a:hover {
@@ -184,6 +186,7 @@ a {
   border-top-right-radius: 0.5rem !important;
   border-bottom-right-radius: 0.5rem !important;
   transition: 0.7s;
+  text-overflow: ellipsis;
 }
 .pro:hover .content-pro {
   height: 315px;
@@ -219,8 +222,14 @@ a {
   color: #3a3b3c !important;
 
 }
+.card-title {
+  font-size: 30px;
+  font-weight: 700;
+}
 .card-text {
   line-height: 1.8;
+  word-break: break-all;
+  text-overflow: ellipsis;
 }
 
 div .role-text {
@@ -246,15 +255,25 @@ div .role-text {
   }
   .content-pro {
     background-color: transparent !important;
+    height: 315px;
+    width: 300px;
     position: absolute;
+    text-overflow: ellipsis;
+    overflow: auto;
+    word-wrap: break-word;
     top: 8px;
   }
   .content-pro-top {
     height: 80%;
     color: #c9e4d6;
   }
+  .card-title {
+    font-size: 20px;
+    font-weight: 700;
+  }
   .card-text {
     color: #343a40;
+    display: block;
   }
   .pro:hover .content-pro {
     background-color: transparent !important;
