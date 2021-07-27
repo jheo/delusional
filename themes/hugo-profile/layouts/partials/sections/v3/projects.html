@@ -55,7 +55,11 @@
             <img width="560" height="315" src="{{ .img }}" alt="{{ .name }}" />
             {{ end }}
           </div>
+          {{ if .youtubeSiteLink}}
+            <div onclick="window.open('{{ .youtubeSiteLink }}','_blank');" style="cursor: pointer;" class="col content-pro p-3 bg-light">
+          {{ else }}
           <div class="col content-pro p-3 bg-light">
+            {{ end }}
             <div class="content-pro-top">
               <h2>{{ .name }}</h2>
               <p class="card-text pt-2">

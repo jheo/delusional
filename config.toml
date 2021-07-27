@@ -432,21 +432,25 @@ tweet = false
   [[params.projects]]
   name = "신입개발자 성장가이드 Part 1"
   youtubeLink = "https://www.youtube.com/embed/5AIYUamN1wY"
+  youtubeSiteLink = "https://youtu.be/5AIYUamN1wY"
   description = "2021년 상반기 신입 개발자 멘토링 세션"
 
   [[params.projects]]
   name = "신입개발자 성장가이드 Part 2"
   youtubeLink = "https://www.youtube.com/embed/uicauWZeqMA"
+  youtubeSiteLink = "https://youtu.be/uicauWZeqMA"
   description = "2021년 하반기 신입 개발자 멘토링 세션"
 
   [[params.projects]]
   name = "Backend 개발의 현황"
   youtubeLink = "https://www.youtube.com/embed/3gED2lpQTxc"
+  youtubeSiteLink = "https://youtu.be/3gED2lpQTxc"
   description = "2020년 해외 신입 개발자 입문 교육"
 
   [[params.projects]]
   name = "GraphQL을 배워보자"
   youtubeLink = "https://www.youtube.com/embed/ZL4cv9ObuLM"
+  youtubeSiteLink = "https://youtu.be/ZL4cv9ObuLM"
   description = "GraphQL의 소개 및 기초 개념"
 
   [[params.achievements]]
