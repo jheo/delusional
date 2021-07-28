@@ -247,10 +247,14 @@ div .role-text {
     opacity: 0.2;
     filter: blur(8px);
     position: relative;
+    width: 100%;
   }
   .pro {
     margin-left: 10% !important;
     margin-right: 10% !important;
+  }
+  .pro iframe {
+    width: 100% !important;
   }
   .bg-pro img {
     border-radius: 0.5rem !important;
@@ -258,7 +262,7 @@ div .role-text {
   .content-pro {
     background-color: transparent !important;
     height: 315px;
-    width: 300px;
+    width: 100%;
     position: absolute;
     text-overflow: ellipsis;
     overflow: auto;
