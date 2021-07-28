@@ -1,7 +1,7 @@
 <section id="projects">
   <div class="container-fluid py-3 pt-5" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="600"
     data-aos-once="true">
-    <div class="text-dark text-center h3">Projects</div>
+    <div class="text-dark text-center h3">Portfolios</div>
     <div class="row justify-content-center pt-2">
       {{ range ( where .Site.RegularPages "Type" "project" ) }}
       <div class="col-md-8 pro m-3 shadow" data-aos="fade-up" data-aos-duration="1500" data-aos-once="true">
@@ -52,19 +52,23 @@
             <iframe width="560" height="315" src="{{ .youtubeLink }}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             {{ end }}
             {{ if .img }}
-            <img width="560" height="315" src="{{ .img }}" alt="{{ .name }}" />
+            <img src="{{ .img }}" alt="{{ .name }}" />
             {{ end }}
           </div>
           {{ if .youtubeSiteLink}}
             <div onclick="window.open('{{ .youtubeSiteLink }}','_blank');" style="cursor: pointer;" class="col content-pro p-3 bg-light">
           {{ else }}
-          <div class="col content-pro p-3 bg-light">
+          <div class="col content-pro bg-light">
             {{ end }}
             <div class="content-pro-top">
-              <div class="card-title pr-4">{{ .name }}</div>
-              <div class="card-text pr-4 pt-2">
-                {{ .description }}
+              <div class="card-title pt-2">{{ .name }}</div>
+              <div class="card-text">
+                <p>{{ .description | safeHTML }}</p>
+                {{ if .quotes }}
+                   <blockquote class="quote-text">"{{ .quotes | safeHTML }}"</blockquote>
+                {{ end }}
               </div>
+              
             </div>
           </div>
         </div>

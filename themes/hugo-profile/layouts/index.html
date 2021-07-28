@@ -3,7 +3,7 @@
 {{ if eq .Site.Params.version 1 }}
 
 <head>
-  <title>{{- .Site.Title -}}</title>
+  <title>Portfolio - June Heo</title>
   <!-- stylesheets -->
   <link rel="stylesheet" href="/css/bootstrap.min.css">
   <link rel="stylesheet" href="/css/all.min.css" media="all">
@@ -51,8 +51,12 @@
 {{ else if eq .Site.Params.version 3 }}
 
 <head>
-  <title>{{- .Site.Title -}}</title>
-  <meta name="description" content="{{ .Site.Params.description }}">
+  <title>Portfolio - June Heo</title>
+  <meta name="description" content="허준 / 소개, 경력, 관심, 성과 및 포트폴리오">
+  <meta property="og:url"                content="https://jheo.io" />
+	<meta property="og:title"              content="Portfolios - June Heo" />
+	<meta property="og:description"        content="허준 / 소개, 경력, 관심, 성과 및 포트폴리오" />
+	<meta property="og:image"              content="/images/ogimage.png" />
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet" media="all">

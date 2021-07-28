@@ -391,77 +391,89 @@ tweet = false
   endyear = "2023"
 
   [[params.projects]]
-  name = "두 에디터 이야기"
-  img = "/images/portfolio/editor.png"
-  featuredlink = "/blog/a-tales-of-two-editor/"
-  description = "이미 오픈하여 운영하고 있는 서비스의 근간이 되는 텍스트 에디터 엔진을 완전히 다른 오픈소스로 교체하는 작업. 어떻게 날아가는 비행기의 엔진을 교체했을까요?"
-
-  [[params.projects]]
-  name = "루비에서 쿠버네티스 까지"
-  img = "/images/portfolio/kubecon.png"
-  featuredlink = "/blog/from-ruby-to-k8s/"
-  description = "2019년도 샌디에고 KubeCon + CloudNativeCon 2019 참석 후기. 지속적으로 변하는 개발환경을 대하는 개발자들이 지금까지 개발환경을 어떻게 변화시키고 적응했는지, 이러한 맥락에서 쿠버네티스는 개발자들에게 어떤 의미로 다가오는 지에 대해서 이야기 합니다."
-
-  [[params.projects]]
-  name = "처음 보는 언어로 멀티 리전 서포트 기능 구현하기"
-  img = "/images/portfolio/multiregion.png"
-  featuredlink = "/blog/implement-multi-region-with-strange-language/"
-  description = "한번도 써본 적 없는 개발 환경에서 Go와 gRPC로 시스템에 멀티 리전 기능을 추가하기"
-
-  [[params.projects]]
-  name = "레디스를 활용한 스케일 아웃 레시피"
-  img = "/images/portfolio/scaleout.png"
-  featuredlink = "/blog/scale-out-with-redis/"
-  description = "레디스 하나만 사용할 수 있는 상황에서 수평 확장 가능한 마이크로 서비스 아키텍처 구성하기"
-
-  [[params.projects]]
-  name = "클라우드 네이티브 프로그래밍 101"
-  img = "/images/portfolio/cloud.png"
-  featuredlink = "/blog/cloud-native-programming-101/"
-  description = "2018년 사내 기술 세미나 발표 후기. 클라우드 네이티브 프로그래밍을 시작하는 개발자들을 위한 안내서"
-
-  [[params.projects]]
-  name = "팀으로 일하는 것과 팀을 위해 일하는 것"
-  img = "/images/portfolio/seattle.png"
-  featuredlink = "/blog/work-as-a-team/"
-  description = "같은 개발 환경에서도 다른 방식으로 일하는 한국과 미국 개발자들의 차이를 발생시키는 근원은 무엇일까?"
-
-  [[params.projects]]
-  name = "엔터프라이즈 안드로이드 애플리케이션 개발하기"
-  img = "/images/portfolio/android.png"
-  featuredlink = "/blog/enterprise-android-dev/"
-  description = "모바일 개발 경험이 없는 개발팀과 함께 엔터프라이즈 앱을 만들기 위한 안드로이드 공통 라이브러리 제작기"
-
-  [[params.projects]]
-  name = "아주 간단한 CRUD 애플리케이션 만들기"
-  img = "/images/portfolio/crud.png"
-  featuredlink = "/blog/develop-basic-crud-app/"
-  description = "아주 단순한 요구사항을 가진 API 인증키 발급 애플리케이션을 단순하지 않게 만드는 방법"
-
-  [[params.projects]]
-  name = "신입개발자 성장가이드 Part 1"
-  youtubeLink = "https://www.youtube.com/embed/5AIYUamN1wY"
-  youtubeSiteLink = "https://youtu.be/5AIYUamN1wY"
-  description = "2021년 상반기 신입 개발자 멘토링 세션"
-
-  [[params.projects]]
-  name = "신입개발자 성장가이드 Part 2"
-  youtubeLink = "https://www.youtube.com/embed/uicauWZeqMA"
-  youtubeSiteLink = "https://youtu.be/uicauWZeqMA"
-  description = "2021년 하반기 신입 개발자 멘토링 세션"
-
-  [[params.projects]]
-  name = "Backend 개발의 현황"
-  youtubeLink = "https://www.youtube.com/embed/3gED2lpQTxc"
-  youtubeSiteLink = "https://youtu.be/3gED2lpQTxc"
-  description = "2020년 해외 신입 개발자 입문 교육"
-
-  [[params.projects]]
-  name = "GraphQL을 배워보자"
+  name = "GraphQL을 배워보자 (2021)"
   youtubeLink = "https://www.youtube.com/embed/ZL4cv9ObuLM"
   youtubeSiteLink = "https://youtu.be/ZL4cv9ObuLM"
   description = "GraphQL의 소개 및 기초 개념"
+  quotes = "...반대로 성능 문제 중에 Underfetch 문제가 발생할 수 있습니다. N+1 문제와 같이 데이터를 가져올 때 각각의 서비스를 모두 호출하게 되어 100개의 아이템을 가진 목록을 호출할 때 목록을 호출하는 쿼리 한 번과 각각의 상세 조회를 위한 쿼리 100번이 호출되어 101번의 호출이 일어나는 문제를 말합니다. 보통 GraphQL에서는 이를 배치를 사용하여 해결하는 경우가 많은데, 어떤 요청이 날아왔을 때 각각의 요청을 모두 합쳐서 날리는 것이 아니라, 데이터 로더를 이용하여 여러 개의 요청을..."
 
+  [[params.projects]]
+  name = "신입개발자 성장가이드 Part 2 (2021)"
+  youtubeLink = "https://www.youtube.com/embed/uicauWZeqMA"
+  youtubeSiteLink = "https://youtu.be/uicauWZeqMA"
+  description = "2021년 하반기 예비 신입사원 세미나"
+  quotes = "...그래서 여러분이 회사에서 개발자로 성공한다는 것은 어떤 의미를 가지게 될까요? 말했듯이 다른 사람들을 찍어누르고 1등을 한다는 말이 아닙니다. 내가 설령 천재적인 알고리즘 문제풀이 능력이 있어서 알고리즘 대회에서 압도적인 성적으로 1등을 했다고 해서 내가 성공한 개발자가 되었다는 보장은 없습니다. 여러분은 원하는 개발을 원하는 만큼 할 수 있고, 그걸 마쳤을때 약간의 후회와 많은 성취감을 느낄 수 있을때, 성공했다고 생각하셨으면 좋겠습니다. 그리고 그 순간은 당장 몇 개월 뒤에 바로 찾아올 수도 있습니다. 그럼 꼭 생각하세요. 아, 나는 성공했구나..."
+
+  [[params.projects]]
+  name = "신입개발자 성장가이드 Part 1 (2021)"
+  youtubeLink = "https://www.youtube.com/embed/5AIYUamN1wY"
+  youtubeSiteLink = "https://youtu.be/5AIYUamN1wY"
+  description = "2021년 상반기 예비 신입사원 세미나"
+  quotes = "...특히 신입으로 처음 일하시는 분들이 자주 생각할 수 있는 것들인데, 여러분이 어떤 코드를 건드릴 때 내가 하는 일이 전체적인 시스템에 어떤 영향을 줄지 완벽하게 아실 수 있으면 잘 돌아가는 코드를 뒤집어도 상관이 없는데 보통은 내가 하는 일이 프로젝트 전체에 어떤 사이드 이펙트를 줄지 완벽하게 파악이 되지 않은 상태에서 코드를 건드리면 안 건드리니만 못한 상황이 많이 발생할 수 있습니다. 이게 어느 정도 경험이 쌓이면 어느 정도 사이드 이펙트를 감수하더라도..."
+
+  [[params.projects]]
+  name = "두 에디터 이야기 (2020)"
+  img = "/images/portfolio/editor.png"
+  featuredlink = "/blog/a-tales-of-two-editor/"
+  description = "운영중인 서비스의 텍스트 에디터 엔진 교체하기" 
+  quotes = "...이러한 경험이 쌓이기 시작하자 저희는 고갈된 베스핀 간헐천과 같은 상태가 되어버린 Quill에 계속 의지하다가는 텍스트 에디터가 서비스 개선의 발목을 잡을 수 있겠다는 판단을 하게 되었고 더 늦기 전에 에디터를 교체하는 것이 가능할지, 대안은 있을지에 대해 검토하기 위해 정찰을 보내게 되었습니다. 대안이 될만한 텍스트 에디터를 찾는 과정에서 가장 먼저 고려했던 것은 역시나 캔버스 기반의 텍스트 에디터를 인하우스 방식으로 직접 구현하는 방식이었습니다. 하지만 리치 텍스트를 지원하는 에디터를 바닥에서부터 만드는 것은 철근 콘크리트로 궤도 엘리베이터를 만들자는 소리만큼이나 막막한 일이었습니다..."
+
+  [[params.projects]]
+  name = "Backend 개발의 현황 (2020)"
+  youtubeLink = "https://www.youtube.com/embed/3gED2lpQTxc"
+  youtubeSiteLink = "https://youtu.be/3gED2lpQTxc"
+  description = "2020년 해외 신입 개발자 입문 교육"
+  quotes = "...사실 자바 기반의 프레임워크는 여전히 스프링을 사용하는 경우가 많고, JVM 기반의 프레임워크는 몇 가지 더 있지만 의미있는 점유율을 가진 프레임워크는 그리 많지 않습니다. 오히려 스프링 프레임워크를 이용하여 개발할 때 자바가 아닌 코틀린을 사용하여 개발하는 케이스가 조금씩 늘어나고 있는데 코틀린은 자바와 호환이 되면서도 최신의 프로그래밍 트랜드들을 적극적으로 반영한 모던 프로그래밍 언어이므로 자바로 프로젝트를 수행하는 것이 꺼려질 때 좋은 대안이 될 수 있습니다..."
+
+  [[params.projects]]
+  name = "루비에서 쿠버네티스 까지 (2019)"
+  img = "/images/portfolio/kubecon.png"
+  featuredlink = "/blog/from-ruby-to-k8s/"
+  description = "KubeCon + CloudNativeCon North America 2019 참가 후기"
+  quotes = "...그래서 이렇게 위상이 바뀐 쿠버네티스와 클라우드 네이티브 생태계는 이제 어떻게 사람들에게 이걸 쓰게 할까? 라는 고민을 넘어서서 어떻게 하면 이 지배적인 생태계를 더 좋은 방향으로, 실수하거나 망치지 않고, 더 품위있게 발전할 수 있을까를 고민하기 시작했고 그 나름의 결론이 다양한 세션으로 표현되었습니다. 에를 들어서 몇 년 전에는 쿠버네티스 위에서 DB를 돌리는 것이 엄청나게 도전적인 일이었는데..."
+
+  [[params.projects]]
+  name = "팀으로 일하는 것과 팀을 위해 일하는 것 (2019)"
+  img = "/images/portfolio/seattle.png"
+  featuredlink = "/blog/work-as-a-team/"
+  description = "2019 Global Exchange Program 후기 - 개발 문화의 상대성에 관하여"
+  quotes = "...잘 안 풀리던 프로젝트에 새롭게 투입된 관리자는 보통 팀원들의 자율성을 보장하기보다는 강한 권한으로 강제성을 주는 선택을 하는 경우가 많습니다. 그래야 깨진 유리창을 방치할 수 없다고 주장하는 사람들에게 멀쩡한 유리창을 깨서라도 일을 진행시키라고 강제할 수 있으니까요. 그러한 강제성을 위해서는 시간과 공간적인 거리감이 방해가 됩니다. 업무의 분배와 완료는 팀원들에 의해서 이루어지는 것이 아니라 관리자에 의해서 이루어져야 하기 때문에 팀원들은 식량을 배급받듯이 정해진 장소와 정해진 시간에 업무를 분배받아야 합니다..."
+
+  [[params.projects]]
+  name = "처음 보는 언어로 멀티 리전 서포트 기능 구현하기 (2019)"
+  img = "/images/portfolio/multiregion.png"
+  featuredlink = "/blog/implement-multi-region-with-strange-language/"
+  description = "K8S 클러스터 프로비저닝 시스템의 멀티 리전 기능 개발 후기"
+  quotes = "...정적인 정의를 동적으로 생성하기 위해서는 리플렉션(Reflection)이 필요했고, 큰 기대를 하지 않고 찾아봤는데 Go 언어에도 리플렉션이 존재한다는 사실을 알게 되어서 살짝 희망을 가졌지만 매우 강하게 타입을 체크하고 제네릭(Generic)을 지원하지 않는 Go 언어의 특성 때문에 리플렉션을 통해 생성된 엔드포인트에서 내가 원하는 메서드를 실행해서 요청을 전달하는 일은 불가능해 보였습니다. 사실 제가 익숙하게 사용했던 스프링 프레임워크에서는 이렇게 요청을 동적으로 해석해서 라우팅하는 것이 전혀 어려운 일이 아니었기 때문에..."
+
+  [[params.projects]]
+  name = "레디스를 활용한 스케일 아웃 레시피 (2018)"
+  img = "/images/portfolio/scaleout.png"
+  featuredlink = "/blog/scale-out-with-redis/"
+  description = "레디스를 이용해 수평 확장 가능한 마이크로 서비스 아키텍처 구성하기"
+  quotes = "...제가 주로 고민했던 확장성은 주로 서버가 수평적으로 확장되는, 그러니까 스케일 아웃 되는 상황이었습니다. 최근 클라우드와 컨테이너 환경등의 발전으로 인하여 더더욱 중요해진 부분이기도 했고, 이 프로젝트는 딥러닝 분석 모듈을 돌린다는 특성 상 서버를 수직적으로 확장하는 것은 한계가 비교적 뚜렷한 편이었습니다. 물론 수평적인 확장성을 위한 아키텍처는 전혀 새로운 것이 아니었고 이미 많은 오픈소스 소프트웨어들이 이 환경에서 생길 수 있는 잠재적인 문제점을 해결하기 위해 개발되어 있었습니다. 하지만 당장의 현실적인 문제들을 생각 안 할 수 없었습니다..."
+
+  [[params.projects]]
+  name = "아주 간단한 CRUD 애플리케이션 만들기 (2018)"
+  img = "/images/portfolio/crud.png"
+  featuredlink = "/blog/develop-basic-crud-app/"
+  description = "API 인증키 발급 시스템 개발 후기"
+  quotes = "...그리고 실제로 해당 클래스는 기존에 생성된 UUID와 중복되지 않는 값을 생성해줌을 보장해주지는 않습니다. 다만 중복될 확률이 지극히 낮을 뿐입니다. 해당 확률을 계산해보면, 임의의 2개의 랜덤 UUID를 생성했을 때 두 UUID가 같을 확률은 2의 122제곱 분의 1에 해당합니다. 만약 기존에 생성된 UUID가 1억개라면 2의 122제곱 분의 1억이 되겠죠. 2의 122제곱 분의 1 확률은 확실히 낮을 것 같은데, 2의 122제곱 분의 1억은 살짝 일어날 수도 있는 확률같이 보일 수도 있습니다. 하지만 2의 122제곱은 5316911983139663491615228241121378304 인데 일반적인 상식으로는 읽기도 어려운 숫자입니다..."
+
+  [[params.projects]]
+  name = "클라우드 네이티브 프로그래밍 101 (2018)"
+  img = "/images/portfolio/cloud.png"
+  featuredlink = "/blog/cloud-native-programming-101/"
+  description = "클라우드 네이티브 프로그래밍 기술 세미나 발표 자료"
+  quotes = "...스케일 아웃 가능한 애플리케이션을 만들 때 또 중요하게 고민해봐야 할 점이 ‘상태를 가지고 있는’ 애플리케이션과 ‘상태를 가지지 않는’ 애플리케이션의 구분입니다. 만약 스케일 아웃되는 프로세스나 서버가 독자적인 상태를 가지고 있다면, 즉 저장하고 있는 데이터가 있다면 서버가 확장될 때 각각의 상태를 서로 공유해야 하는 어려움이 생겨나게 됩니다. 때문에 최근의 개발 트랜드에서는 가급적이면 애플리케이션 서버는 어떠한 상태도 가지지 않는 Stateless Application으로 구성하고, 상태 정보들은 모두 별도의 저장소 (Persistence)에 몰아버리는 흐름이 있습니다..."
+
+  [[params.projects]]
+  name = "엔터프라이즈 안드로이드 프로젝트 공통 라이브러리 개발하기 (2016)"
+  img = "/images/portfolio/android.png"
+  featuredlink = "/blog/enterprise-android-dev/"
+  description = "엔터프라이즈 앱을 만들기 위한 안드로이드 공통 라이브러리 제작기"
+  quotes = "...로그 하나를 찍는 것 조차도 ‘Log 클래스 쓰세요’라고 단순하게 말하고 넘어갈 수 있는 상황이 아니었습니다. 최소한 그저 파일 하나 저장했을 뿐인데 상황에 따라 느려지거나 튕겨나가는 일은 없도록, 조금 더 나아가서는 안드로이드 개발에 경험이 있거나 없거나 자신이 알고 있는 것들을 이용해서 충분히 원하는 화면과 로직을 만들어 낼 수 있도록, 그러니까 개발자들이 쓸데없는 것에 신경쓰지 않고 충분히 자신의 역량을 발휘할 수 있도록 준비해주는 작업이 필요했던 것입니다..."
+  
   [[params.achievements]]
   title = "삼성SDS 신입개발자 조기전력화 최우수 신입사원 (2010)"
   description = "삼성SDS 신입개발자 사전교육, 배치고사, OJT 교육 성적 1위"
