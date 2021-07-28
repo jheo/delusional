@@ -67,17 +67,23 @@ a {
   font-size: 18px;
 }
 .social-icon {
-  padding: 2%;
   background-color: #6c96a0;
-  color: #f9fafc !important;
-  width: 44px;
-  height: 44px;
+  display: block;
   text-align: center;
-  vertical-align: middle;
+  width: 50px;
+  height: 50px;
+  line-height: 45px;
+  color: #f9fafc !important;
   border-radius: 50%;
   transition: 0.3s;
   border: 1px solid;
 }
+
+.social-icon i {
+  vertical-align:middle;
+}
+
+
 .social-icon:hover {
   background-color: #f9fafc !important;
   color: #6c96a0 !important;
@@ -141,8 +147,9 @@ a {
   font-size: 17px;
 }
 .about-skill {
-  padding-right: 10% !important;
+  padding-right: 5% !important;
 }
+
 .contact-btn {
   padding: 1.5%;
   padding-left: 2%;
@@ -158,12 +165,20 @@ a {
 }
 @media only screen and (max-width: 768px) {
   .about-content {
-    padding-left: 5% !important;
-    padding-right: 5% !important;
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+  }
+  .about-skill .container {
+    padding-left: 0;
   }
   .about-skill {
-    padding-left: 5% !important;
-    padding-right: 5% !important;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  }
+  .about-tech {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+    padding-top: 20px !important;
   }
   .about {
     padding-top: 5% !important;
@@ -253,6 +268,7 @@ a {
 
 div .role-text {
   font-size: 18px;
+  font-weight: 200;
   color: #3a7072;
 }
 .pro:hover .pro-btn {
@@ -333,6 +349,10 @@ div .role-text {
 }
 .tab-pane {
 }
+div .h4 {
+  margin-bottom: 2px !important;
+}
+
 .ex {
   list-style-type: none;
 }
@@ -347,10 +367,21 @@ div .role-text {
   left: 0px;
   color: #33857b;
 }
+.company-text {
+  color: #436662;
+}
 .ex-ol {
   list-style-type: decimal-leading-zero;
   padding-top: 7%;
 }
+.ex-ol-li::marker {
+  font-weight: 400;
+  font-size: 24px;
+  margin-right: 0.5rem;
+  line-height: 2;
+  color: #436662;
+}
+
 .ex-ol .ex-ol-li {
   padding-bottom: 3%;
 }
@@ -402,6 +433,9 @@ div .role-text {
   content: "\25C3";
   position: absolute;
   right: 0px;
+}
+.edu-item h5 {
+  color: #33857b !important;
 }
 .edu-img {
   width: 100%;

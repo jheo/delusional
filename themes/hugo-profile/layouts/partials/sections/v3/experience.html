@@ -8,7 +8,7 @@
           {{ range .Site.Params.experience }}
           <li class="ex-ol-li" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="600" data-aos-once="true">
             <h4 class="text-muted">
-              <span class="pri-text">{{ .company }}</span>
+              <span class="company-text">{{ .company }}</span>
             </h4>
             <div class="role-text">
               {{ .role }}
@@ -51,7 +51,7 @@
         {{ if (eq $index 0) }}
         <div class="tab-pane fade show active" id="{{ .companyId }}" role="tabpanel" aria-labelledby="{{ .company }}-tab">
           <div class="h4 text-muted">
-            <span class="pri-text">{{ .company }}</span>
+            <span class="company-text">{{ .company }}</span>
           </div>
           <div class="role-text">
             {{ .role }}
@@ -70,7 +70,7 @@
         {{ else }}
         <div class="tab-pane fade" id="{{ .companyId }}" role="tabpanel" aria-labelledby="{{ .company }}-tab">
           <div class="h4 text-muted">
-            <span class="pri-text">{{ .company }}</span>
+            <span class="company-text">{{ .company }}</span>
           </div>
           <div class="role-text">
             {{ .role }}
