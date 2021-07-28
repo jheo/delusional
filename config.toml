@@ -42,32 +42,32 @@ tweet = false
   [[params.depts]]
   name = "신사업 인큐베이션팀"
   role = "소프트웨어 아키텍트"
-  start = 2_020
+  start = 2020
   end = "현재"
 
   [[params.depts]]
   name = "플랫폼개발팀"
   role = "소프트웨어 아키텍트"
-  start = 2_019
-  end = 2_020
+  start = 2019
+  end = 2020
 
   [[params.depts]]
   name = "아키텍처팀"
   role = "소프트웨어 아키텍트"
-  start = 2_018
-  end = 2_019
+  start = 2018
+  end = 2019
 
   [[params.depts]]
   name = "솔루션개발팀"
   role = "애플리케이션 개발"
-  start = 2_014
-  end = 2_017
+  start = 2014
+  end = 2017
 
   [[params.depts]]
   name = "소프트웨어 엔지니어링팀"
   role = "애플리케이션 개발"
-  start = 2_010
-  end = 2_014
+  start = 2010
+  end = 2014
 
   [[params.skills]]
   name = "Java"
@@ -103,7 +103,7 @@ tweet = false
   company = "Marimba"
   companyId = "marimba"
   role = "Software Architect"
-  startdate = 2_020.09
+  startdate = 2020.09
   enddate = "현재"
 
     [[params.experience.featuredpoints]]
@@ -115,12 +115,15 @@ tweet = false
     [[params.experience.featuredpoints]]
     point = "텍스트 에디터, 스마트 가이드, 투표 및 기타 편의 기능 프론트 엔드 및 백엔드 개발"
 
+    [[params.experience.featuredpoints]]
+    point = '<a href="/blog/a-tales-of-two-editor" target="_blank">텍스트 에디터 개발 후기</a>'
+
   [[params.experience]]
   company = "DevOps 플랫폼 포탈 개발"
   companyId = "portal"
   role = "Java Developer"
-  startdate = 2_020.01
-  enddate = 2_020.08
+  startdate = 2020.01
+  enddate = 2020.08
 
     [[params.experience.featuredpoints]]
     point = "사용기술 - Spring Boot, WebFlux, Java, JPA, VueJS, JavaScript, Redis"
@@ -138,8 +141,8 @@ tweet = false
   company = "Infrastructure Management System 개발"
   companyId = "ims"
   role = "Go Developer"
-  startdate = 2_019.09
-  enddate = 2_019.12
+  startdate = 2019.09
+  enddate = 2019.12
 
     [[params.experience.featuredpoints]]
     point = "사용기술 - Go, gRPC, VueJS, JavaScript, Kubernetes"
@@ -163,8 +166,8 @@ tweet = false
   company = "API Catalog 시스템 개발"
   companyId = "catalog"
   role = "Software Architect"
-  startdate = 2_018.12
-  enddate = 2_019.08
+  startdate = 2018.12
+  enddate = 2019.08
 
     [[params.experience.featuredpoints]]
     point = "사용기술 - Spring Boot, Kubernetes, Redis"
@@ -182,8 +185,8 @@ tweet = false
   company = "플랫폼 기반 개발자 교육 과정 개발 및 강의"
   companyId = "e2e"
   role = "Software Architect"
-  startdate = 2_018.07
-  enddate = 2_019.06
+  startdate = 2018.07
+  enddate = 2019.06
 
     [[params.experience.featuredpoints]]
     point = "사용기술 - Spring Boot, Netflix Stack, MSA, Docker, Kubernetes"
@@ -201,8 +204,8 @@ tweet = false
   company = "클라우드 서비스 전환 및 공통 서비스 개발"
   companyId = "arch"
   role = "Software Architect"
-  startdate = 2_018.03
-  enddate = 2_018.11
+  startdate = 2018.03
+  enddate = 2018.11
 
     [[params.experience.featuredpoints]]
     point = "사용기술 - Docker, Kubernetes, Helm, Java, Spring Boot, Redis"
@@ -217,8 +220,8 @@ tweet = false
   company = "S-Patch"
   companyId = "spatch"
   role = "Software Architect"
-  startdate = 2_016.11
-  enddate = 2_018.02
+  startdate = 2016.11
+  enddate = 2018.02
 
     [[params.experience.featuredpoints]]
     point = "사용기술 - AWS, Spring Boot, Redis, Android, Tizen"
@@ -239,8 +242,8 @@ tweet = false
   company = "EHR Mobile"
   companyId = "ehr"
   role = "Mobile Developer"
-  startdate = 2_014.03
-  enddate = 2_016.1
+  startdate = 2014.03
+  enddate = 2016.1
 
     [[params.experience.featuredpoints]]
     point = "사용기술 - Android, iOS, Java, Swift, Spring Framework, Redis"
@@ -283,8 +286,8 @@ tweet = false
   company = "비즈니스 프로세스 모델러"
   companyId = "bizmodeler"
   role = "Java Developer"
-  startdate = 2_013.03
-  enddate = 2_013.06
+  startdate = 2013.03
+  enddate = 2013.06
 
     [[params.experience.featuredpoints]]
     point = "사용기술 - Java, SWT, Spring Framework, Apache POI, Jasper Report"
@@ -302,8 +305,8 @@ tweet = false
   company = "ChatON Voice&Video Admin Portal"
   companyId = "chaton"
   role = "Instructor/Translator"
-  startdate = 2_013.07
-  enddate = 2_013.09
+  startdate = 2013.07
+  enddate = 2013.09
 
     [[params.experience.featuredpoints]]
     point = "사용기술 - Agile, Scrum, Java"
@@ -343,8 +346,8 @@ tweet = false
   company = "전자정부 표준프레임워크"
   companyId = "egovframe"
   role = "Java Developer"
-  startdate = 2_010.05
-  enddate = 2_011.11
+  startdate = 2010.05
+  enddate = 2011.11
 
     [[params.experience.featuredpoints]]
     point = "사용기술 - Java, Spring Framework, JSP, jQuery"
@@ -388,10 +391,16 @@ tweet = false
   endyear = "2023"
 
   [[params.projects]]
+  name = "두 에디터 이야기"
+  img = "/images/portfolio/editor.png"
+  featuredlink = "/blog/a-tales-of-two-editor/"
+  description = "이미 오픈하여 운영하고 있는 서비스의 근간이 되는 텍스트 에디터 엔진을 완전히 다른 오픈소스로 교체하는 작업. 어떻게 날아가는 비행기의 엔진을 교체했을까요?"
+
+  [[params.projects]]
   name = "루비에서 쿠버네티스 까지"
   img = "/images/portfolio/kubecon.png"
   featuredlink = "/blog/from-ruby-to-k8s/"
-  description = "2019년도 샌디에고 KubeCon + CloudNativeCon 2019 참석 후기. 개발환경의 변화와 쿠버네티스의 의미에 대하여."
+  description = "2019년도 샌디에고 KubeCon + CloudNativeCon 2019 참석 후기. 지속적으로 변하는 개발환경을 대하는 개발자들이 지금까지 개발환경을 어떻게 변화시키고 적응했는지, 이러한 맥락에서 쿠버네티스는 개발자들에게 어떤 의미로 다가오는 지에 대해서 이야기 합니다."
 
   [[params.projects]]
   name = "처음 보는 언어로 멀티 리전 서포트 기능 구현하기"
