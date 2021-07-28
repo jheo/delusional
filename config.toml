@@ -499,8 +499,8 @@ tweet = false
   description = "삼성SDS 석사학위 취득 지원 프로그램 - 소프트웨어공학 전공 선발"
 
   [[params.achievements]]
-  title = "고려대학교 컴퓨터정보통신대학원 최우수 졸업생 (2019)"
-  description = "컴퓨터정보통신대학원 수석 입학 및 수석 졸업 - 총장상 수여"
+  title = "고려대학교 컴퓨터정보통신대학원 수석 졸업 (2019)"
+  description = "컴퓨터정보통신대학원 수석 입학 및 수석 졸업 - 최우수상 수상"
 
   [[params.achievements]]
   title = "삼성SDS 전략인재양성 - Global Exchange Program (2019)"
