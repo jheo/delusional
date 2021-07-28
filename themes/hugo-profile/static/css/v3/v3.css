@@ -70,6 +70,10 @@ a {
   padding: 2%;
   background-color: #6c96a0;
   color: #f9fafc !important;
+  width: 44px;
+  height: 44px;
+  text-align: center;
+  vertical-align: middle;
   border-radius: 50%;
   transition: 0.3s;
   border: 1px solid;
@@ -204,6 +208,8 @@ a {
 .pro img {
   filter: grayscale(40%);
   transition: 0.7s;
+  min-width: 300px;
+  min-height: 300px;
 }
 
 .pro iframe {
@@ -285,13 +291,15 @@ div .role-text {
     color: #c9e4d6;
   }
   .card-title {
-    font-size: 30px;
+    font-size: 22px;
     font-weight: 700;
   }
   .card-text {
+    font-size: 16px;
     color: #343a40;
   }
   .quote-text {
+    font-size: 15px;
     color: #343a40;
   }
   .pro:hover .content-pro {
