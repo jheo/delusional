@@ -267,8 +267,8 @@ tweet = false
   company = "CIC 3.0 Apps & Solution"
   companyId = "cic"
   role = "Android Developer"
-  startdate = 2_013.09
-  enddate = 2_014.02
+  startdate = 2013.09
+  enddate = 2014.02
 
     [[params.experience.featuredpoints]]
     point = "사용기술 - Android, Java, Spring Framework, jQuery"
@@ -475,33 +475,33 @@ tweet = false
   quotes = "...로그 하나를 찍는 것 조차도 ‘Log 클래스 쓰세요’라고 단순하게 말하고 넘어갈 수 있는 상황이 아니었습니다. 최소한 그저 파일 하나 저장했을 뿐인데 상황에 따라 느려지거나 튕겨나가는 일은 없도록, 조금 더 나아가서는 안드로이드 개발에 경험이 있거나 없거나 자신이 알고 있는 것들을 이용해서 충분히 원하는 화면과 로직을 만들어 낼 수 있도록, 그러니까 개발자들이 쓸데없는 것에 신경쓰지 않고 충분히 자신의 역량을 발휘할 수 있도록 준비해주는 작업이 필요했던 것입니다..."
   
   [[params.achievements]]
-  title = "삼성SDS 신입개발자 조기전력화 최우수 신입사원 (2010)"
+  title = "삼성SDS 조기전력화 최우수 신입사원 선정 (2010)"
   description = "삼성SDS 신입개발자 사전교육, 배치고사, OJT 교육 성적 1위"
 
   [[params.achievements]]
   title = "삼성SDS 인턴사원 멘토링 우수 멘토 (2011)"
-  description = "삼성SDS 2011년 하계 인턴사원 멘토링 우수 멘토 선정"
+  description = "삼성SDS 2011 하계 인턴사원 멘토링 우수 멘토"
 
   [[params.achievements]]
   title = "삼성SDS 신입사원 멘토링 우수 멘토 (2012)"
-  description = "삼성SDS 2011 ~ 2012 신입사원 멘토링 우수 멘토 선정"
+  description = "삼성SDS 2012 신입사원 멘토링 우수 멘토"
 
   [[params.achievements]]
-  title = "삼성SDS ICSP Tech 경진대회 Java 프로그래밍 1위 (2012)"
+  title = "삼성SDS ICSP Tech. 경진대회 Java 프로그래밍 1위 (2012)"
   description = "삼성SDS 전사 Java 프로그래밍 경진대회 1위"
 
   [[params.achievements]]
   title = "삼성그룹 대학생 멘토링 우수 멘토 (2013)"
-  description = "삼성그룹 2013년도 대학생 대상 멘토링 우수 멘토 선정"
+  description = "삼성그룹 2013 대학생 멘토링 우수 멘토 선정 및 마스터 클래스 강연자 선정"
 
   [[params.achievements]]
-  title = "삼성SDS IT석사 대상자 선정 (2017)"
-  description = "사내 전략인재 양성 프로그램 중 소프트웨어공학 석사학위 취득 지원 프로그램 선정"
+  title = "삼성SDS 전략인재양성 - IT석사 (2017)"
+  description = "삼성SDS 석사학위 취득 지원 프로그램 - 소프트웨어공학 전공 선발"
 
   [[params.achievements]]
-  title = "고려대학교 컴퓨터정보통신대학원 졸업생 최우수상 (2019)"
-  description = "컴퓨터정보통신대학원 수석 입학 및 수석 졸업 (총장상)"
+  title = "고려대학교 컴퓨터정보통신대학원 최우수 졸업생 (2019)"
+  description = "컴퓨터정보통신대학원 수석 입학 및 수석 졸업 - 총장상 수여"
 
   [[params.achievements]]
-  title = "삼성SDS Global Exchange Program 대상자 선정 (2019)"
-  description = "사내 전략인재 양성 프로그램 중 해외 지사 파견 근무 및 프로젝트 참여 대상자 선정"
+  title = "삼성SDS 전략인재양성 - Global Exchange Program (2019)"
+  description = "삼성SDS 해외 파견 프로그램 - Cloud Native Computing Team 선발"
