@@ -118,6 +118,9 @@ tweet = false
     [[params.experience.featuredpoints]]
     point = '<a href="/blog/a-tales-of-two-editor" target="_blank">텍스트 에디터 개발 후기</a>'
 
+    [[params.experience.featuredpoints]]
+    point = '<a href="https://www.youtube.com/watch?v=dWT9zbR3ebM" target="_blank">투표 기능 개발 후기</a>'
+
   [[params.experience]]
   company = "DevOps 플랫폼 포탈 개발"
   companyId = "portal"
