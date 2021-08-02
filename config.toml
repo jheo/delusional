@@ -391,10 +391,10 @@ tweet = false
   endyear = "2023"
 
   [[params.projects]]
-  name = "마림바의 투표 기능은 어떻게 만들었을가 (2021)"
+  name = "마림바의 투표 기능은 어떻게 만들었을까 (2021)"
   youtubeLink = "https://www.youtube.com/embed/dWT9zbR3ebM"
   youtubeSiteLink = "https://youtu.be/dWT9zbR3ebM"
-  description = "동시성 문제 해결을 고려한 신규 기능 개발기"
+  description = "동시성 문제가 골치 아팠던 신규 기능 개발 후기"
   quotes = "...저희가 좀 골치아픈 상황이 있었는데 여러 클라이언트에서 중복 로그인이 가능한 상화이었다는 것입니다. 이게 무슨 말이냐면 사용자들이 여러 PC나 여러 브라우저 탭에서 동시에 투표를 제출했을 경우에, 운이 없을 경우에는 투표를 집계하는 웹 소켓 서버도 스케일 아웃이 이미 되어있는 상황이었기 때문에 몇 개의 서버에서 집계를 할 지 알 수 없었고 같은 아이디로 로그인 한 사용자가 여러 클라이언트에서 투표를 했을 때 중복으로 반영되어서 모든 표가 Hash Increase 커맨드를 타서 표가 중복으로 반영될 문제가..."
 
   [[params.projects]]
