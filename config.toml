@@ -100,7 +100,7 @@ tweet = false
   name = "GraphQL"
 
   [[params.experience]]
-  company = "Marimba"
+  company = "Marimba 온라인 화이트보드 서비스"
   companyId = "marimba"
   role = "Software Architect"
   startdate = 2020.09
@@ -121,8 +121,11 @@ tweet = false
     [[params.experience.featuredpoints]]
     point = '<a href="https://www.youtube.com/watch?v=dWT9zbR3ebM" target="_blank">투표 기능 개발 후기</a>'
 
+    [[params.experience.featuredpoints]]
+    point = '<a href="/blog/how-to-create-smart-guide/" target="_blank">스마트 가이드 & 스냅 기능 개발 후기</a>'
+
   [[params.experience]]
-  company = "DevOps 플랫폼 포탈 개발"
+  company = "DevOps 플랫폼 포탈"
   companyId = "portal"
   role = "Java Developer"
   startdate = 2020.01
@@ -141,7 +144,7 @@ tweet = false
     point = "Markdown/Git 기반 개발문서 관리 서비스 백엔드 및 프론트엔드 개발"
 
   [[params.experience]]
-  company = "Infrastructure Management System 개발"
+  company = "Infrastructure Management System"
   companyId = "ims"
   role = "Go Developer"
   startdate = 2019.09
@@ -166,7 +169,7 @@ tweet = false
     point = '<a href="/blog/from-ruby-to-k8s" target="_blank">KubeCon + CloudNativeCon 2019 컨퍼런스 참석 후기</a>'
 
   [[params.experience]]
-  company = "API Catalog 시스템 개발"
+  company = "API Catalog 시스템"
   companyId = "catalog"
   role = "Software Architect"
   startdate = 2018.12
@@ -185,7 +188,7 @@ tweet = false
     point = '<a href="/blog/develop-basic-crud-app/" target="_blank">API 인증 키 발급 시스템 개발 후기</a>'
 
   [[params.experience]]
-  company = "플랫폼 기반 개발자 교육 과정 개발 및 강의"
+  company = "플랫폼 기반 개발자 교육 과정"
   companyId = "e2e"
   role = "Software Architect"
   startdate = 2018.07
@@ -204,7 +207,7 @@ tweet = false
     point = '<a href="/blog/cloud-native-programming-101" target="_blank">클라우드 네이티브 프로그래밍 세미나 강연</a>'
 
   [[params.experience]]
-  company = "클라우드 서비스 전환 및 공통 서비스 개발"
+  company = "사내 서비스 클라우드 전환 및 공통 서비스 개발"
   companyId = "arch"
   role = "Software Architect"
   startdate = 2018.03
@@ -220,7 +223,7 @@ tweet = false
     point = "사용자 유입 통제 서비스, 캐시 서비스 등 개발하여 클라우드 기반으로 서비스"
 
   [[params.experience]]
-  company = "S-Patch"
+  company = "S-Patch 심전도 분석 서비스"
   companyId = "spatch"
   role = "Software Architect"
   startdate = 2016.11
@@ -242,7 +245,7 @@ tweet = false
     point = '<a href="/blog/scale-out-with-redis" target="_blank">수평 확장 가능한 머신러닝 분석 시스템 개발 후기</a>'
 
   [[params.experience]]
-  company = "EHR Mobile"
+  company = "EHR Mobile 병원 정보 시스템"
   companyId = "ehr"
   role = "Mobile Developer"
   startdate = 2014.03
@@ -267,7 +270,7 @@ tweet = false
     point = '<a href="/blog/enterprise-android-dev" target="_blank">프로젝트 공통 라이브러리 개발 후기</a>'
 
   [[params.experience]]
-  company = "CIC 3.0 Apps & Solution"
+  company = "CIC 3.0 강의노트 필기 애플리케이션"
   companyId = "cic"
   role = "Android Developer"
   startdate = 2013.09
@@ -404,7 +407,7 @@ tweet = false
   name = "마림바의 스마트 가이드는 어떻게 만들었을까 (2021)"
   img = "/images/portfolio/smartguide.png"
   featuredlink = "/blog/how-to-create-smart-guide/"
-  description = "신규 프론트엔드 기능 개발 후기" 
+  description = "순수 프론트엔드 신규 기능 개발 후기" 
   quotes = "...하지만 실제로 가이드라인이 표시되기 시작했을 때, 사전에 크게 고민안하고 넘겨버렸거나 미처 생각하지 못한 부분들이 실질적인 문제로 나타나기 시작했는데  문제들은 다시 복잡하게 얽히면서 더 큰 문제를 만들어냈는데, 사전 계산 페이즈에서 상하좌우 정렬 가이드라인은 O(N) 시간 내에 가이드라인을 모두 구해서 Interval Tree에 집어넣을 수 있었지만 등간격 가이드라인은 하나의 객체를 기준으로 또 다시 다른 객체들과의 거리를 측정해서 계산해야 했기 때문에 N제곱 시간이 소요되었습니다. 이는 객체 숫자가 늘어날 수록..."
 
   [[params.projects]]
