@@ -1,6 +1,11 @@
 ---
 title: "두 에디터 이야기"
 date: 2021-07-27T00:04:36+09:00
+tags:
+  - React
+  - TextEditor
+  - ProseMirror
+  - Quill
 ---
 
 ## 프롤로그

@@ -221,14 +221,14 @@ a {
 }
 
 .pro img {
-  filter: grayscale(40%);
+  filter: grayscale(30%);
   transition: 0.7s;
   min-width: 300px;
   min-height: 300px;
 }
 
 .pro iframe {
-  filter: grayscale(40%);
+  filter: grayscale(30%);
   transition: 0.7s;
 }
 
