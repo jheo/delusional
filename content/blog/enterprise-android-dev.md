@@ -877,9 +877,13 @@ registrationCall.enqueue(new Callback<RegistrationInfoListResponse>() {
         
     } 
 });
+```
+
 네트워크의 호출의 콜백에서 다시 네트워크 호출이 이루어지면 콜백이 중첩되게 됩니다. 이러면 에러 처리의 경우 어디에서 어떻게 처리를 해줘야 될지도 난감해지게 됩니다. 만약에 공통코드의 결과를 받아와서 다시 네트워크 호출이 이루어져야 된다면 코드가 더 엉망이 될 수도 있습니다. 그렇기 때문에 이런 문제를 사전에 풀어야 될 필요가 있었습니다.
 매우 단순하게 생각하면, 비즈니스 로직이라는 것은 결국 뭔가를 호출하고 받아오고 계산하고 UI에 반영하는 일련의 작업들의 집합입니다. 문제를 조금 더 단순하게 풀어내기 위해서 UI는 비즈니스 로직의 호출과 결과의 반영에만 개입한다고 가정하겠습니다. '비즈니스 로직을 수행하는 중간에 UI에 뭔가를 반영하는 일이 절대 없다고 가정할 수 있나?'라고 생각할 수 있지만 그 경우에는 이벤트 버스를 사용하면 되기 때문에 (그리고 미리 이벤트가 스레드를 넘어 다닐 수 있도록 만들었기 때문에) 문제가 되지 않았습니다.
 이러한 일련의 비즈니스 로직을 전부 별도 스레드에서 동작하도록 묶어버리면 개발자들이 큰 신경을 쓰지 않아도 다수의 코어를 활용하도록 유도할 수 있습니다. 안드로이드에는 이미 AsyncTask라는 매우 좋은 비동기 클래스가 존재하므로 해당 클래스를 살짝 래핑하여 더욱 단순한 형태로 바꿔주면 다음과 같은 형태가 될 수 있습니다.
+
+``` java
 public class RegistrationInfoTask extends ServiceTask<RegistrationInfo, RegistrationList> {
       
     @Override  
@@ -888,7 +892,11 @@ public class RegistrationInfoTask extends ServiceTask<RegistrationInfo, Registra
     }
     
 }  
+```
+
 ServiceTask 클래스는 AsyncTask를 상속한 클래스로, 입력값과 출력값을 제네릭으로 정의하도록 되어 있으며 실제 비즈니스 로직이 작성되는 하나의 추상 메소드만 가지고 있습니다. 개발자들은 go 메소드 내부에 비즈니스 로직을 구현하고 그 결과를 반환하기만 하면 됩니다. 이 떄 ServiceTask 클래스는 리턴값이 AsyncTask의 onPostExecute 메소드로 넘어왔을 때, 별도의 콜백 클래스로 결과를 포스팅 해줍니다. 이 때 실제 UI 스레드에서 해당 로직을 호출하는 부분은 다음과 같이 작성됩니다.
+
+``` java
 RegistrationInfoTask task = new RegistrationInfoTask(new ServiceReceiver<RegistrationInfoList>() {
      @Override 
     public void onProgress(ServiceProgress progress) {  
