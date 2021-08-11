@@ -331,7 +331,7 @@ tweet = false
   companyId = "aebs"
   role = "Java Developer"
   startdate = 2012.03
-  enddate = 2012.10
+  enddate = 2012.11
 
     [[params.experience.featuredpoints]]
     point = "사용기술 - Java, Spring Framework, GWT, Agile, Scrum"
