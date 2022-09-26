@@ -40,37 +40,37 @@ showdescription = false
 tweet = false
 
   [[params.depts]]
-  name = "플랫폼개발팀"
+  name = "카카오픽코마 플랫폼개발팀"
   role = "소프트웨어 엔지니어"
   start = 2021
   end = "현재"
 
   [[params.depts]]
-  name = "신사업 인큐베이션팀"
+  name = "삼성SDS 신사업 인큐베이션팀"
   role = "소프트웨어 아키텍트"
   start = 2020
   end = 2021
 
   [[params.depts]]
-  name = "플랫폼개발팀"
+  name = "삼성SDS 플랫폼개발팀"
   role = "소프트웨어 아키텍트"
   start = 2019
   end = 2020
 
   [[params.depts]]
-  name = "아키텍처팀"
+  name = "삼성SDS 아키텍처팀"
   role = "소프트웨어 아키텍트"
   start = 2018
   end = 2019
 
   [[params.depts]]
-  name = "솔루션개발팀"
+  name = "삼성SDS 솔루션개발팀"
   role = "애플리케이션 개발"
   start = 2014
   end = 2017
 
   [[params.depts]]
-  name = "소프트웨어 엔지니어링팀"
+  name = "삼성SDS 소프트웨어 엔지니어링팀"
   role = "애플리케이션 개발"
   start = 2010
   end = 2014
