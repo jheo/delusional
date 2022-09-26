@@ -422,8 +422,6 @@ tweet = false
   startedyear = "2020"
   endyear = "2023"
 
-  https://www.youtube.com/watch?v=SiyRCm8oksQ
-
   [[params.projects]]
   name = "누구나 쉽게 이해하는 컨텐츠 추천 시스템 설계 (2022)"
   youtubeLink = "https://www.youtube.com/embed/SiyRCm8oksQ"
