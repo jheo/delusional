@@ -40,10 +40,16 @@ showdescription = false
 tweet = false
 
   [[params.depts]]
+  name = "플랫폼개발팀"
+  role = "소프트웨어 엔지니어"
+  start = 2021
+  end = "현재"
+
+  [[params.depts]]
   name = "신사업 인큐베이션팀"
   role = "소프트웨어 아키텍트"
   start = 2020
-  end = "현재"
+  end = 2021
 
   [[params.depts]]
   name = "플랫폼개발팀"
@@ -70,7 +76,7 @@ tweet = false
   end = 2014
 
   [[params.skills]]
-  name = "Java"
+  name = "Java/Kotlin"
 
   [[params.skills]]
   name = "Spring"
@@ -97,14 +103,34 @@ tweet = false
   name = "DevOps"
 
   [[params.skills]]
-  name = "GraphQL"
+  name = "Python"
+
+  [[params.experience]]
+  company = "픽코마 글로벌 서비스"
+  companyId = "piccoma"
+  role = "Backend/Infra Engineer"
+  startdate = 2021.10
+  enddate = "현재"
+
+    [[params.experience.featuredpoints]]
+    point = "사용기술 - Python, Django, Kotlin, Spring, AWS"
+
+    [[params.experience.featuredpoints]]
+    point = '글로벌 만화/웹툰 서비스의 서버 개발 및 인프라 운영 담당'
+
+    [[params.experience.featuredpoints]]
+    point = 'Backend, Infra, DevOps 담당 팀 리더'
+
+    [[params.experience.featuredpoints]]
+    point = 'if(kakao) 2022 컨퍼런스 - 카카오픽코마는 글로벌 서비스를 어떻게 만들어가는가? (공개예정)'
+
 
   [[params.experience]]
   company = "Marimba 온라인 화이트보드 서비스"
   companyId = "marimba"
   role = "Software Architect"
   startdate = 2020.09
-  enddate = "현재"
+  enddate = 2021.10
 
     [[params.experience.featuredpoints]]
     point = "사용기술 - ReactJS, JavaScript, NodeJS, Express, Redis, AWS, Kubernetes"
@@ -395,6 +421,15 @@ tweet = false
   certcode = '<a href="https://www.credly.com/badges/fbd59951-31f5-4d98-aa72-fac530162b08/linked_in_profile" target="_blank">CKAD-2000-002748-0100</a>'
   startedyear = "2020"
   endyear = "2023"
+
+  https://www.youtube.com/watch?v=SiyRCm8oksQ
+
+  [[params.projects]]
+  name = "누구나 쉽게 이해하는 컨텐츠 추천 시스템 설계 (2022)"
+  youtubeLink = "https://www.youtube.com/embed/SiyRCm8oksQ"
+  youtubeSiteLink = "https://youtu.be/SiyRCm8oksQ"
+  description = "효과적인 컨텐츠 추천을 위한 기초 지식"
+  quotes = "...벡터로만 표현이 되면 모든 계산을 다 할 수 있습니다. 수학적으로는 같은 차원의 벡터가 있다면 코사인 계산을 통해 두 벡터 사이의 각도를 계산할 수 있습니다. 두 영화의 유사도를 구하기 위해서 각 항목을 곱한 값을 더한 값을 각 항목의 제곱한 값에 루트를 씌워서 다시 곱한 값으로 나눈 값을 구할 수 있습니다. 그래서 이러한 계산 공식으로 두 영화가 85퍼센트의 유사도를 가지고 있다는 결론을 내릴 수 있습니다. 이는 아이템의 프로필, 그러니까 속성만 가지고 구한 유사도가 이 정도라는 뜻으로..."
 
   [[params.projects]]
   name = "마림바의 투표 기능은 어떻게 만들었을까 (2021)"
