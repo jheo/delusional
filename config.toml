@@ -109,7 +109,7 @@ tweet = false
   company = "픽코마 글로벌 서비스"
   companyId = "piccoma"
   role = "Backend/Infra Engineer"
-  startdate = 2021.10
+  startdate = "2021.10"
   enddate = "현재"
 
     [[params.experience.featuredpoints]]
@@ -130,7 +130,7 @@ tweet = false
   companyId = "marimba"
   role = "Software Architect"
   startdate = 2020.09
-  enddate = 2021.10
+  enddate = "2021.10"
 
     [[params.experience.featuredpoints]]
     point = "사용기술 - ReactJS, JavaScript, NodeJS, Express, Redis, AWS, Kubernetes"
