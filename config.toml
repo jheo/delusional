@@ -41,7 +41,7 @@ tweet = false
 
   [[params.depts]]
   name = "카카오픽코마 플랫폼개발팀"
-  role = "소프트웨어 엔지니어"
+  role = "팀 리더 / 소프트웨어 엔지니어"
   start = 2021
   end = "현재"
 
@@ -122,7 +122,10 @@ tweet = false
     point = 'Backend, Infra, DevOps 담당 팀 리더'
 
     [[params.experience.featuredpoints]]
-    point = 'if(kakao) 2022 컨퍼런스 - 카카오픽코마는 글로벌 서비스를 어떻게 만들어가는가? (공개예정)'
+    point = '<a href="https://if.kakao.com/2022/session/97">if(kakao)dev 2022 컨퍼런스 - 카카오 픽코마는 글로벌 서비스를 어떻게 만들어가는가?</a>'
+    
+    [[params.experience.featuredpoints]]
+    point = '<a href="https://n.news.naver.com/mnews/article/277/0005187797">언론 인터뷰 - "韓에 없는 서머타임, 프랑스서 고생 좀 했죠"</a>'
 
 
   [[params.experience]]
