@@ -43,7 +43,7 @@ tweet = false
   name = "카카오픽코마 플랫폼개발팀"
   role = "팀 리더 / 소프트웨어 엔지니어"
   start = 2021
-  end = "현재"
+  end = 2023
 
   [[params.depts]]
   name = "삼성SDS 신사업 인큐베이션팀"
