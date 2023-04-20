@@ -110,7 +110,7 @@ tweet = false
   companyId = "piccoma"
   role = "Backend/Infra Engineer"
   startdate = "2021.10"
-  enddate = "현재"
+  enddate = "2023.05"
 
     [[params.experience.featuredpoints]]
     point = "사용기술 - Python, Django, Kotlin, Spring, AWS"
