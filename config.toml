@@ -451,6 +451,13 @@ tweet = false
   endyear = "2023"
 
   [[params.projects]]
+  name = "카카오 픽코마는 어떻게 글로벌 서비스를 만들어가는가 (2022)"
+  youtubeLink = "https://www.youtube.com/embed/0zEYpa0iS20"
+  youtubeSiteLink = "https://youtu.be/0zEYpa0iS20"
+  description = "글로벌 서비스 개발을 위한 서버 개발과 인프라"
+  quotes = "...이렇게 서비스의 어떤 영역은 무조건 글로벌 공통의 기준을 가질 수 없었고 현지 사정에 맞추어서 다르게 구현될 수 밖에 없었습니다.  다양한 언어와 타임존을 사용하는 국가를 대상으로 서비스를 현지화 하면서 점점 글로벌 서비스는 서버를 언어에 중립적으로 만들거나 시간을 UTC 기준으로 저장 하는 등 많은 부분을 추상화 하는 것이 코드의 변경을 줄이고 지역의 변경에 따른 부작용을 줄이는 방법이라는 것을 알게 되었습니다...."
+
+  [[params.projects]]
   name = "누구나 쉽게 이해하는 컨텐츠 추천 시스템 설계 (2022)"
   youtubeLink = "https://www.youtube.com/embed/SiyRCm8oksQ"
   youtubeSiteLink = "https://youtu.be/SiyRCm8oksQ"
