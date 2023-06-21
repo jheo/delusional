@@ -40,6 +40,12 @@ showdescription = false
 tweet = false
 
   [[params.depts]]
+  name = "29CM 서비스플랫폼팀"
+  role = "백엔드 개발"
+  start = 2023
+  end = 
+
+  [[params.depts]]
   name = "카카오픽코마 플랫폼개발팀"
   role = "팀 리더 / 소프트웨어 엔지니어"
   start = 2021
@@ -104,6 +110,25 @@ tweet = false
 
   [[params.skills]]
   name = "Python"
+
+  [[params.experience]]
+  company = "29CM"
+  companyId = "29cm"
+  role = "Backend Developer"
+  startdate = "2023.05"
+  enddate = "현재"
+
+    [[params.experience.featuredpoints]]
+    point = "사용기술 - Kotlin, Spring, Kubernetes, AWS"
+
+    [[params.experience.featuredpoints]]
+    point = '29CM 커머스 플랫폼의 백엔드 개발 및 SRE 업무 담당'
+
+    [[params.experience.featuredpoints]]
+    point = '스프링 기반 서버 개발 및 공통 모듈 개발'
+
+    [[params.experience.featuredpoints]]
+    point = '서비스 운영 및 모니터링'
 
   [[params.experience]]
   company = "픽코마 글로벌 서비스"
