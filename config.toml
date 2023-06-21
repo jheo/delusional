@@ -43,7 +43,7 @@ tweet = false
   name = "29CM 서비스플랫폼팀"
   role = "백엔드 개발"
   start = 2023
-  end = 
+  end = "현재"
 
   [[params.depts]]
   name = "카카오픽코마 플랫폼개발팀"
